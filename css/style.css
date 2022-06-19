@@ -48,6 +48,8 @@ body{
     opacity: 0.5;
     margin: 0px;
     padding: 0px;
+    top: 0;
+    left: 0;
     
 }
 #navbar ul li{
@@ -73,7 +75,7 @@ body{
 #home{
     display: flex;
     flex-direction: column;
-    height: 400px;
+    height: 650px;
     justify-content: center;
     align-items: center;
     padding: 3px 200px;
@@ -88,6 +90,8 @@ body{
     width: 100%;
     z-index: -1;
     opacity: 0.4;
+    top: 0;
+    left: 0;
     
 }
 
@@ -104,8 +108,11 @@ home h1{
 .h-primary{
     font-size: 2.8rem;
     padding: 12px;
+}
 
-
+.h-secondary{
+    font-size: 1.8rem;
+    padding: 12px;
 }
 
 .btn{
@@ -118,4 +125,28 @@ home h1{
     font-size: 1.5rem;
     border-radius: 10px;
 
+}
+
+.center{
+    text-align: center;
+}
+
+#services{
+    margin: 34px;
+    display: flex;
+}
+
+#services .box{
+    border: 2px solid darkblue;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background-color: skyblue;
+}
+
+#services .box img{
+    height: 100px;
+    margin: auto;
+    display: block;
+    align-items: center;
 }
