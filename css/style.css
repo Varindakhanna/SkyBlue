@@ -152,3 +152,25 @@ home h1{
     display: block;
     align-items: center;
 }
+
+#about-us section{
+    height: 344px;
+    
+
+}
+
+#about-us img{
+    height: 190px;
+    width: 215px;
+    padding: 45px;
+    
+
+}
+
+#about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+  
